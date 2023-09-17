@@ -189,6 +189,12 @@ img {
     padding: 120px 0;
 }
 
+.benefits-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
 .benefit-card {
     display: flex;
     width: 264px;
@@ -197,7 +203,7 @@ img {
     gap: 8px;
 }
 
-.benefits-list-h {
+.benefit-tittle {
     color: var(--navyblue, #2E2F42);
     font-family: "Roboto",
         sans-serif;
