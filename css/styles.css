@@ -29,6 +29,10 @@ img {
     padding: 0 15px;
 }
 
+.section {
+    padding: 120px 0;
+}
+
 
 
 .header {
@@ -124,7 +128,6 @@ img {
 .hero-section {
     background: var(--navyblue, #2E2F42);
     flex-shrink: 0;
-    padding: 188px 0;
 }
 
 .hero-inner {
@@ -138,13 +141,12 @@ img {
     text-align: center;
     margin: 0 auto;
     color: var(--white, #FFF);
-    font-family: Roboto;
-    font-size: 56px;
+    font-family: "Roboto", sans-serif;
+    font-size: 52px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
-    margin-bottom: 48px;
 }
 
 .button-order {
@@ -183,10 +185,6 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
-
-.benefits-section {
-    padding: 120px 0;
 }
 
 .benefits-list {
@@ -232,7 +230,6 @@ img {
 .section-our-team {
     flex-shrink: 0;
     background: var(--cloud, #F4F4FD);
-    padding: 120px 0;
 }
 
 .tittle-nonprimary {
@@ -310,10 +307,6 @@ img {
 }
 
 
-
-.section-portfolio {
-    padding: 120px 0;
-}
 
 .portfolio-list {
     display: flex;
