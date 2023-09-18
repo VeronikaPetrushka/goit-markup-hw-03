@@ -1,4 +1,4 @@
-/* GENERAL */
+
 
 .body {
     background-color: #FFF;
@@ -29,11 +29,7 @@ img {
     padding: 0 15px;
 }
 
-/* END GENERAL */
 
-/* START - HEADER */
-
-/* START - NAVIGATION */
 
 .header {
     border-bottom: 1px solid #e7e9fc
@@ -96,9 +92,7 @@ img {
 
 }
 
-/* END - NAVIGATION */
 
-/* START - ADDRESS */
 
 .header-address {
     font-style: normal;
@@ -125,11 +119,7 @@ img {
     color: #404bbf;
 }
 
-/* END - ADDRESS */
 
-/* END - HEADER */
-
-/* START HERO SECTION */
 
 .hero-section {
     background: var(--navyblue, #2E2F42);
@@ -180,9 +170,7 @@ img {
     background-color: #404BBF;
 }
 
-/* END HERO SECTION */
 
-/* START BENEFIT SECTION */
 
 .visually-hidden {
     position: absolute;
@@ -239,9 +227,7 @@ img {
     letter-spacing: 0.32px;
 }
 
-/* END BENEFIT SECTION */
 
-/* START OUR TEAM SECTION */
 
 .section-our-team {
     flex-shrink: 0;
@@ -270,8 +256,6 @@ img {
     justify-content: center;
 }
 
-/* До li ми завжди додаємо тільки зовнішню геометрію (відступи, ширина, тощо)  */
-
 .personal-card {
     flex-basis: calc((100% - 72px) / 4);
     background: var(--white, #FFF);
@@ -293,7 +277,6 @@ img {
 .team-member {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     gap: 8px;
     padding: 32px 0;
@@ -326,9 +309,7 @@ img {
     padding-bottom: 32px;
 }
 
-/* END OUR TEAM SECTION */
 
-/* START PORTFOLIO SECTION */
 
 .section-portfolio {
     padding: 120px 0;
@@ -394,9 +375,7 @@ img {
     padding-bottom: 32px;
 }
 
-/* END PORTFOLIO SECTION */
 
-/* START FOOTER */
 
 .footer {
     flex-shrink: 0;
@@ -431,4 +410,3 @@ img {
     letter-spacing: 0.32px;
 }
 
-/* END FOOTER */
