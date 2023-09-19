@@ -312,7 +312,6 @@ img {
     padding: 32px 16px;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
     border-top: none;
-    margin-bottom: 8px;
 }
 
 .portfolio-tittle {
@@ -325,6 +324,7 @@ img {
     line-height: 24px;
     letter-spacing: 0.4px;
     margin: 0;
+    margin-bottom: 8px;
 }
 
 .portfolio-description {
