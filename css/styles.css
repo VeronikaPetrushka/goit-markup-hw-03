@@ -311,6 +311,8 @@ img {
     border-top: none;
     padding: 32px 16px;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 .portfolio-tittle {
